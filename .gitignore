@@ -1,0 +1,6 @@
+.env
+__pycache__
+__init.py__
+config.py 
+.env
+backend/.env
