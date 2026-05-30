@@ -23,17 +23,18 @@ export default function MainLayout() {
       <aside className="w-80 bg-white dark:bg-[#111827] border-r border-slate-200 dark:border-slate-800 flex flex-col transition-all duration-300">
 
         {/* Logo */}
-        <div className="px-6 py-6 border-b border-slate-200 dark:border-slate-800">
+        {/* Logo */}
+<div className="px-6 py-6 border-b border-slate-200 dark:border-slate-800">
 
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">
-            SatelliteAI
-          </h1>
+  <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+    GeoVision AI
+  </h1>
 
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Geospatial Analysis System
-          </p>
+  <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+    Geospatial Intelligence Platform
+  </p>
 
-        </div>
+</div>
 
         {/* Theme Toggle */}
         <div className="p-4">
@@ -98,7 +99,7 @@ export default function MainLayout() {
         <div className="px-4 mt-8 flex-1 overflow-y-auto">
 
           <h3 className="text-xs uppercase tracking-wide text-slate-400 dark:text-slate-500 mb-4">
-            Recent Analyses
+            Saved Analyses
           </h3>
 
           <div className="space-y-2">
